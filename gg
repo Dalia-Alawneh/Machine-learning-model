@@ -1,0 +1,266 @@
+itching
+skin_rash
+nodal_skin_eruptions
+continuous_sneezing
+shivering
+chills
+joint_pain
+stomach_pain
+acidity
+ulcers_on_tongue
+muscle_wasting
+vomiting
+burning_micturition
+spotting_ urination
+fatigue
+weight_gain
+anxiety
+cold_hands_and_feets
+mood_swings
+weight_loss
+restlessness
+lethargy
+patches_in_throat
+irregular_sugar_level
+cough
+high_fever
+sunken_eyes
+breathlessness
+sweating
+dehydration
+indigestion
+headache
+yellowish_skin
+dark_urine
+nausea
+loss_of_appetite
+pain_behind_the_eyes
+back_pain
+constipation
+abdominal_pain
+diarrhoea
+mild_fever
+yellow_urine
+yellowing_of_eyes
+acute_liver_failure
+fluid_overload
+swelling_of_stomach
+swelled_lymph_nodes
+malaise
+blurred_and_distorted_vision
+phlegm
+throat_irritation
+redness_of_eyes
+sinus_pressure
+runny_nose
+congestion
+chest_pain
+weakness_in_limbs
+fast_heart_rate
+pain_during_bowel_movements
+pain_in_anal_region
+bloody_stool
+irritation_in_anus
+neck_pain
+dizziness
+cramps
+bruising
+obesity
+swollen_legs
+swollen_blood_vessels
+puffy_face_and_eyes
+enlarged_thyroid
+brittle_nails
+swollen_extremeties
+excessive_hunger
+extra_marital_contacts
+drying_and_tingling_lips
+slurred_speech
+knee_pain
+hip_joint_pain
+muscle_weakness
+stiff_neck
+swelling_joints
+movement_stiffness
+spinning_movements
+loss_of_balance
+unsteadiness
+weakness_of_one_body_side
+loss_of_smell
+bladder_discomfort
+foul_smell_of urine
+continuous_feel_of_urine
+passage_of_gases
+internal_itching
+toxic_look_(typhos)
+depression
+irritability
+muscle_pain
+altered_sensorium
+red_spots_over_body
+belly_pain
+abnormal_menstruation
+dischromic _patches
+watering_from_eyes
+increased_appetite
+polyuria
+family_history
+mucoid_sputum
+rusty_sputum
+lack_of_concentration
+visual_disturbances
+receiving_blood_transfusion
+receiving_unsterile_injections
+coma
+stomach_bleeding
+distention_of_abdomen
+history_of_alcohol_consumption
+fluid_overload
+blood_in_sputum
+prominent_veins_on_calf
+palpitations
+painful_walking
+pus_filled_pimples
+blackheads
+scurring
+skin_peeling
+silver_like_dusting
+small_dents_in_nails
+inflammatory_nails
+blister
+red_sore_around_nose
+yellow_crust_ooze
+prognosis
+df['itching'] = df['itching'].astype('int')
+df['skin_rash'] = df['skin_rash'].astype('int')
+df['nodal_skin_eruptions'] = df['nodal_skin_eruptions'].astype('int')
+df['continuous_sneezing'] = df['continuous_sneezing'].astype('int')
+df['shivering'] = df['shivering'].astype('int')
+df['chills'] = df['chills'].astype('int')
+df['joint_pain'] = df['joint_pain'].astype('int')
+df['stomach_pain'] = df['stomach_pain'].astype('int')
+df['acidity'] = df['acidity'].astype('int')
+df['ulcers_on_tongue'] = df['ulcers_on_tongue'].astype('int')
+df['muscle_wasting'] = df['muscle_wasting'].astype('int')
+df['vomiting'] = df['vomiting'].astype('int')
+df['burning_micturition'] = df['burning_micturition'].astype('int')
+df['spotting_ urination'] = df['spotting_ urination'].astype('int')
+df['fatigue'] = df['fatigue'].astype('int')
+df['weight_gain'] = df['weight_gain'].astype('int')
+df['anxiety'] = df['anxiety'].astype('int')
+df['cold_hands_and_feets'] = df['cold_hands_and_feets'].astype('int')
+df['mood_swings'] = df['mood_swings'].astype('int')
+df['weight_loss'] = df['weight_loss'].astype('int')
+df['restlessness'] = df['restlessness'].astype('int')
+df['lethargy'] = df['lethargy'].astype('int')
+df['patches_in_throat'] = df['patches_in_throat'].astype('int')
+df['irregular_sugar_level'] = df['irregular_sugar_level'].astype('int')
+df['cough'] = df['cough'].astype('int')
+df['high_fever'] = df['high_fever'].astype('int')
+df['sunken_eyes'] = df['sunken_eyes'].astype('int')
+df['breathlessness'] = df['breathlessness'].astype('int')
+df['sweating'] = df['sweating'].astype('int')
+df['dehydration'] = df['dehydration'].astype('int')
+df['indigestion'] = df['indigestion'].astype('int')
+df['headache'] = df['headache'].astype('int')
+df['yellowish_skin'] = df['yellowish_skin'].astype('int')
+df['dark_urine'] = df['dark_urine'].astype('int')
+df['nausea'] = df['nausea'].astype('int')
+df['loss_of_appetite'] = df['loss_of_appetite'].astype('int')
+df['pain_behind_the_eyes'] = df['pain_behind_the_eyes'].astype('int')
+df['back_pain'] = df['back_pain'].astype('int')
+df['constipation'] = df['constipation'].astype('int')
+df['abdominal_pain'] = df['abdominal_pain'].astype('int')
+df['diarrhoea'] = df['diarrhoea'].astype('int')
+df['mild_fever'] = df['mild_fever'].astype('int')
+df['yellow_urine'] = df['yellow_urine'].astype('int')
+df['yellowing_of_eyes'] = df['yellowing_of_eyes'].astype('int')
+df['acute_liver_failure'] = df['acute_liver_failure'].astype('int')
+df['fluid_overload'] = df['fluid_overload'].astype('int')
+df['swelling_of_stomach'] = df['swelling_of_stomach'].astype('int')
+df['swelled_lymph_nodes'] = df['swelled_lymph_nodes'].astype('int')
+df['malaise'] = df['malaise'].astype('int')
+df['blurred_and_distorted_vision'] = df['blurred_and_distorted_vision'].astype('int')
+df['phlegm'] = df['phlegm'].astype('int')
+df['throat_irritation'] = df['throat_irritation'].astype('int')
+df['redness_of_eyes'] = df['redness_of_eyes'].astype('int')
+df['sinus_pressure'] = df['sinus_pressure'].astype('int')
+df['runny_nose'] = df['runny_nose'].astype('int')
+df['congestion'] = df['congestion'].astype('int')
+df['chest_pain'] = df['chest_pain'].astype('int')
+df['weakness_in_limbs'] = df['weakness_in_limbs'].astype('int')
+df['fast_heart_rate'] = df['fast_heart_rate'].astype('int')
+df['pain_during_bowel_movements'] = df['pain_during_bowel_movements'].astype('int')
+df['pain_in_anal_region'] = df['pain_in_anal_region'].astype('int')
+df['bloody_stool'] = df['bloody_stool'].astype('int')
+df['irritation_in_anus'] = df['irritation_in_anus'].astype('int')
+df['neck_pain'] = df['neck_pain'].astype('int')
+df['dizziness'] = df['dizziness'].astype('int')
+df['cramps'] = df['cramps'].astype('int')
+df['bruising'] = df['bruising'].astype('int')
+df['obesity'] = df['obesity'].astype('int')
+df['swollen_legs'] = df['swollen_legs'].astype('int')
+df['swollen_blood_vessels'] = df['swollen_blood_vessels'].astype('int')
+df['puffy_face_and_eyes'] = df['puffy_face_and_eyes'].astype('int')
+df['enlarged_thyroid'] = df['enlarged_thyroid'].astype('int')
+df['brittle_nails'] = df['brittle_nails'].astype('int')
+df['swollen_extremeties'] = df['swollen_extremeties'].astype('int')
+df['excessive_hunger'] = df['excessive_hunger'].astype('int')
+df['extra_marital_contacts'] = df['extra_marital_contacts'].astype('int')
+df['drying_and_tingling_lips'] = df['drying_and_tingling_lips'].astype('int')
+df['slurred_speech'] = df['slurred_speech'].astype('int')
+df['knee_pain'] = df['knee_pain'].astype('int')
+df['hip_joint_pain'] = df['hip_joint_pain'].astype('int')
+df['muscle_weakness'] = df['muscle_weakness'].astype('int')
+df['stiff_neck'] = df['stiff_neck'].astype('int')
+df['swelling_joints'] = df['swelling_joints'].astype('int')
+df['movement_stiffness'] = df['movement_stiffness'].astype('int')
+df['spinning_movements'] = df['spinning_movements'].astype('int')
+df['loss_of_balance'] = df['loss_of_balance'].astype('int')
+df['unsteadiness'] = df['unsteadiness'].astype('int')
+df['weakness_of_one_body_side'] = df['weakness_of_one_body_side'].astype('int')
+df['loss_of_smell'] = df['loss_of_smell'].astype('int')
+df['bladder_discomfort'] = df['bladder_discomfort'].astype('int')
+df['foul_smell_of urine'] = df['foul_smell_of urine'].astype('int')
+df['continuous_feel_of_urine'] = df['continuous_feel_of_urine'].astype('int')
+df['passage_of_gases'] = df['passage_of_gases'].astype('int')
+df['internal_itching'] = df['internal_itching'].astype('int')
+df['toxic_look_(typhos)'] = df['toxic_look_(typhos)'].astype('int')
+df['depression'] = df['depression'].astype('int')
+df['irritability'] = df['irritability'].astype('int')
+df['muscle_pain'] = df['muscle_pain'].astype('int')
+df['altered_sensorium'] = df['altered_sensorium'].astype('int')
+df['red_spots_over_body'] = df['red_spots_over_body'].astype('int')
+df['belly_pain'] = df['belly_pain'].astype('int')
+df['abnormal_menstruation'] = df['abnormal_menstruation'].astype('int')
+df['dischromic _patches'] = df['dischromic _patches'].astype('int')
+df['watering_from_eyes'] = df['watering_from_eyes'].astype('int')
+df['increased_appetite'] = df['increased_appetite'].astype('int')
+df['polyuria'] = df['polyuria'].astype('int')
+df['family_history'] = df['family_history'].astype('int')
+df['mucoid_sputum'] = df['mucoid_sputum'].astype('int')
+df['rusty_sputum'] = df['rusty_sputum'].astype('int')
+df['lack_of_concentration'] = df['lack_of_concentration'].astype('int')
+df['visual_disturbances'] = df['visual_disturbances'].astype('int')
+df['receiving_blood_transfusion'] = df['receiving_blood_transfusion'].astype('int')
+df['receiving_unsterile_injections'] = df['receiving_unsterile_injections'].astype('int')
+df['coma'] = df['coma'].astype('int')
+df['stomach_bleeding'] = df['stomach_bleeding'].astype('int')
+df['distention_of_abdomen'] = df['distention_of_abdomen'].astype('int')
+df['history_of_alcohol_consumption'] = df['history_of_alcohol_consumption'].astype('int')
+df['fluid_overload'] = df['fluid_overload'].astype('int')
+df['blood_in_sputum'] = df['blood_in_sputum'].astype('int')
+df['prominent_veins_on_calf'] = df['prominent_veins_on_calf'].astype('int')
+df['palpitations'] = df['palpitations'].astype('int')
+df['painful_walking'] = df['painful_walking'].astype('int')
+df['pus_filled_pimples'] = df['pus_filled_pimples'].astype('int')
+df['blackheads'] = df['blackheads'].astype('int')
+df['scurring'] = df['scurring'].astype('int')
+df['skin_peeling'] = df['skin_peeling'].astype('int')
+df['silver_like_dusting'] = df['silver_like_dusting'].astype('int')
+df['small_dents_in_nails'] = df['small_dents_in_nails'].astype('int')
+df['inflammatory_nails'] = df['inflammatory_nails'].astype('int')
+df['blister'] = df['blister'].astype('int')
+df['red_sore_around_nose'] = df['red_sore_around_nose'].astype('int')
+df['yellow_crust_ooze'] = df['yellow_crust_ooze'].astype('int')
+df['prognosis'] = df['prognosis'].astype('int')
